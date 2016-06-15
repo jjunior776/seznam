@@ -5,7 +5,6 @@
 class Clanek
 {
 public:
-    Clanek(Clanek *dalsi);
     Clanek();
     int hodnota;
     Clanek *dalsiClanek;
