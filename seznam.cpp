@@ -66,4 +66,10 @@ int Seznam::hodnotaNaPozici(int pozice)
     return this->n->hodnota;
 }
 
+void Seznam::nastavHodnotuNaPozici(int pozice, int hodnota)
+{
+    this->clanekNaPozici(pozice);
+    this->n->hodnota = hodnota;
+}
+
 

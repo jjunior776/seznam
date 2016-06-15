@@ -19,6 +19,7 @@ public:
     Clanek *n;
     void clanekNaPozici(int pozice);
     int hodnotaNaPozici(int pozice);
+    void nastavHodnotuNaPozici(int pozice, int hodnota);
 };
 
 #endif // SEZNAM_H
