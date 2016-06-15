@@ -18,6 +18,7 @@ public:
     void nagenerujData(int maximum);
     Clanek *n;
     void clanekNaPozici(int pozice);
+    int hodnotaNaPozici(int pozice);
 };
 
 #endif // SEZNAM_H

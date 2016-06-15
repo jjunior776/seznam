@@ -60,4 +60,10 @@ void Seznam::clanekNaPozici(int pozice)             // najde clanek ktery chceme
     }
 }
 
+int Seznam::hodnotaNaPozici(int pozice)
+{
+    this->clanekNaPozici(pozice);
+    return this->n->hodnota;
+}
+
 
